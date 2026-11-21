@@ -6,7 +6,7 @@
 
 ## Quick Install (OpenCode, Hermes, Claude Code)
 ```bash
-npx skills add <your-github-username>/leyes --skill=leyes
+npx skills add blightedodyssey/leyes --skill=leyes
 ```
 
 ## The 6 Lenses
