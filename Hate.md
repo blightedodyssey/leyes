@@ -1,3 +1,16 @@
 # Hate — Anti-Patterns & Hard "Nevers"
-- Unnecessary middlemen, bloated dependencies, and shallow micro-file fragmentation.
-- Guessing requirements instead of asking, or leaving broken paths and stray files behind.
+
+## Architectural Smells
+- Shallow micro-file fragmentation, bloated "God files," and leaky abstractions.
+- Circular dependencies or hidden cross-module state mutations.
+
+## Workflow Friction
+- Unnecessary wrapper tools, heavy background bloatware, and multi-step setup hoops.
+- Leaving stray files in `/tmp/` or cluttering project root directories.
+
+## Lazy AI Habits
+- Guessing requirements instead of grilling first, or dumping walls of unrequested boilerplate.
+- Repeating already-rejected patterns instead of checking ADRs and rules.
+
+## UI Clutter
+- Noisy dashboards, buried settings, forced account logins, and redundant titles or greetings.
