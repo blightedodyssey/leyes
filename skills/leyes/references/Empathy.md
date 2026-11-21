@@ -1,4 +1,4 @@
-# Considerations — Real-World Constraints & Trade-Offs
+# Empathy — User & Maintainer Reality
 
 ## Hardware & Network Reality
 - Respect finite RAM/VRAM, multi-machine workflows, offline resilience, and varying bandwidth.
@@ -24,3 +24,6 @@
   - Multi-OS support is an explicit requirement, OR
   - Code touches system-dependent APIs (paths, shells, permissions, line endings)
 - Maximize local/free compute and lean context budgets before reaching for paid resources.
+
+## UX / Resilience
+- Favor plain, actionable error messages over raw stack traces so users are never stranded.
